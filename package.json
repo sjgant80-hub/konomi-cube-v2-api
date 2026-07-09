@@ -1,0 +1,25 @@
+{
+  "name": "@ai-native-solutions/konomi-cube-v2-api",
+  "version": "1.0.0",
+  "description": "konomi-cube-v2 HTTP API · Express wrapper around @ai-native-solutions/konomi-cube-v2-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["konomi-cube-v2", "api", "http", "express", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/konomi-cube-v2-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "@ai-native-solutions/konomi-cube-v2-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
